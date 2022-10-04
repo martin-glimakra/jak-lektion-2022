@@ -1,0 +1,32 @@
+div {
+    border: 2px solid blue;
+}
+
+button {
+    background-color: purple;
+    padding: 20px;
+}
+
+.img-text-button-container {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+  }
+
+  /* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 300px) {
+    body {
+      background-color: blue;
+      color: white;
+    }
+  }
