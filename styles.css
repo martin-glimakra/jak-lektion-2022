@@ -41,12 +41,37 @@ h2 {
     margin: auto;
 }
 
+.card-container {
+    display: flex;
+    background-color: brown;
+}
+
+.two-card-container {
+    display: flex;
+    background-color: cadetblue;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+}
+
+
 @media screen and (max-width: 750px) {
-    /* body {
-      background-color: olive;
-      color: white;
-    } */
+
     .img-text-button-container {
+        display: block;
+    }
+
+    .card-container {
+        display: block;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+
+    .two-card-container {
         display: block;
     }
   }
