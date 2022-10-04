@@ -2,31 +2,51 @@ div {
     border: 2px solid blue;
 }
 
+/* css som rör hela sidan */
+
 button {
     background-color: purple;
     padding: 20px;
 }
 
+h2 {
+    font-size: 50px;
+}
+
+/* Äg din bank css */
+
 .img-text-button-container {
     display: flex;
+}
+
+.img-text-button-container div {
+    margin: 20px;
 }
 
 .flex1 {
     flex: 1;
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 600px) {
-    body {
+#ag-din-bank {
+    background-color: aqua;
+}
+
+#ag-din-bank h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.content-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+@media screen and (max-width: 750px) {
+    /* body {
       background-color: olive;
       color: white;
-    }
-  }
-
-  /* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 300px) {
-    body {
-      background-color: blue;
-      color: white;
+    } */
+    .img-text-button-container {
+        display: block;
     }
   }
